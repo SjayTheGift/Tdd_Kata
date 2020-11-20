@@ -1,9 +1,9 @@
-from string_calculator import Calculator
+from string_calculator import StringCalculator
 import unittest
 
 
 class TestStringMethods(unittest.TestCase):
-    calculate = Calculator()
+    calculate = StringCalculator()
 
     def test_empty_string(self):
         """it should return 0 if the string is empty"""

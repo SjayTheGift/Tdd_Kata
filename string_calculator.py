@@ -1,7 +1,7 @@
 import re
 
 
-class Calculator:
+class StringCalculator:
 
     def add(self, numbers):
         if numbers == '':
@@ -19,5 +19,5 @@ class Calculator:
 
 
 if __name__ == '__main__':
-    calculate = Calculator()
+    calculate = StringCalculator()
     calculate.add('5,4,100')
